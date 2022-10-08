@@ -1,0 +1,15 @@
+button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    border: solid 1px blue;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 1.0;
+}

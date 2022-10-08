@@ -1,10 +1,10 @@
 import React from 'react'
+import './index.css';
 
 function ButtonHeader(props) {
     return(
-        <div>
-            <button>{props.children}</button>
-        </div>
+       
+        <button>{props.children}</button>
     )
 }
 

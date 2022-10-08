@@ -10,10 +10,6 @@
     background-position: center;
 }
 
-.header img {
-    border-radius: 10px;
-}
-
 .image-container {
     display: flex;
     column-gap: 10px;
