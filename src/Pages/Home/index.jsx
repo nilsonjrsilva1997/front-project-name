@@ -10,9 +10,9 @@ function Home() {
     return(
     <>
         <Header></Header>
-        <CategoryList />
 
         <div class="categoryContainer">
+            <CategoryList />
             <CategoryItem categoryName="NOME DA CATEGORIA" backgroundCategory="https://static5.depositphotos.com/1020804/534/i/450/depositphotos_5348599-stock-photo-assorted-japanese-sushi.jpg" />
 
             <div class="productsContainer">
