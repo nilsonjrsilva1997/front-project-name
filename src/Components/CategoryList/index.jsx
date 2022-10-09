@@ -1,17 +1,34 @@
 import './index.css';
 import React from "react";
+import { FaArrowRight } from 'react-icons/fa';
 
 function CategoryList() {
     return(
         <div>
-            <select name="categories" id="categories" class="selectpicker">
-                <option value="">Selecione uma categoria</option>
-                <option value="">Categoria 1</option>
-                <option value="">Categoria 2</option>
-                <option value="">Categoria 3</option>
-                <option value="">Categoria 4</option>
-                <option value="">Categoria 5</option>
-            </select>
+           <div>CATEGORIAS</div>
+
+           <div>
+           <ul>
+                <li>Link 1 <FaArrowRight /></li>
+                
+                <div class="line"></div>
+                <li>Link 2</li> 
+                
+                <div class="line"></div>
+                <li>Link 3</li> <div class="line"></div>
+                <li>Link 4</li> <div class="line"></div>
+                <li>Link 5</li> <div class="line"></div>
+                <li>Link 6</li>  <div class="line"></div>
+                <li>Link 7</li>  <div class="line"></div>
+                <li>Link 8</li> <div class="line"></div>
+                <li>Link 9</li> <div class="line"></div>
+                <li>Link 10</li> <div class="line"></div>
+                <li>Link 11</li> <div class="line"></div>
+                <li>Link 13</li> <div class="line"></div>
+                <li>Link 13</li> <div class="line"></div>
+
+            </ul>
+           </div>
         </div>
     )
 }
