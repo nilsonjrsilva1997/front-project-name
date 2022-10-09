@@ -1,0 +1,35 @@
+.titleProduct {
+    color: #333333;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.textProduct {
+    color: #727272;
+    text-align: justify;
+}
+
+.product-container {
+    display: flex;
+    padding: 20px;
+    border-radius: 18px;
+    column-gap: 40px;
+    width: 400px;
+    background-color: #fff;
+}
+
+.product-container:hover {
+    box-shadow: 1px 1px 1px #ccc;
+    cursor: pointer;
+}
+
+.image-product img {
+    border-radius: 14px;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}

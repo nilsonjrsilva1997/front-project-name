@@ -3,7 +3,6 @@ import './index.css';
 
 function ButtonHeader(props) {
     return(
-       
         <button>{props.children}</button>
     )
 }

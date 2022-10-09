@@ -1,0 +1,12 @@
+.categoryContainer {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.productsContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}

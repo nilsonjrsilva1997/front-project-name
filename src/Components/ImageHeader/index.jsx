@@ -4,7 +4,7 @@ import './index.css';
 function ImageHeader(props) {
     return(
         <>
-            <img src={props.src} alt={props.alt} />
+            <img class="header-image" src={props.src} alt={props.alt} />
         </>
     )
 }

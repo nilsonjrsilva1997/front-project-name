@@ -6,6 +6,8 @@ import { Routes, Route, Router, BrowserRouter } from "react-router-dom";
 
 import logo from "./logo.svg";
 import Header from "./Components/Header";
+import Home from "./Pages/Home";
+import './App.css';
 
 const allCategories = ["all", ...new Set(items.map((item) => item.category))];
 
@@ -17,7 +19,7 @@ const App = () => {
   return (
     <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Header />} />
+          <Route path="/" element={<Home />} />
           <Route path="about" element={<Categories />} />
         </Routes>
     </BrowserRouter>
