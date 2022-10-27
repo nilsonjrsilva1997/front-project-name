@@ -1,6 +1,8 @@
 import React from "react";
 import "./index.css";
 
+
+
 function Card(props) {
   return (
     <div class="card">

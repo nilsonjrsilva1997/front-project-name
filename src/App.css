@@ -39,4 +39,5 @@
 
 body {
     background-color: #f1f1ec;
+    overflow: hidden;
 }

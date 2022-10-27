@@ -1,11 +1,6 @@
 import React from "react";
 import "./index.css";
-import { FaPhone } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 import { FaRegUserCircle } from "react-icons/fa";
-import { FaStore } from "react-icons/fa";
 
 import ButtonHeader from "../ButtonHeader";
 import TextHeader1 from "../TextHeader1";
@@ -14,6 +9,7 @@ import TextHeader3 from "../TextHeader3";
 import ImageHeader from '../ImageHeader';
 import TextButton from "../TextButton";
 import DrawerMenu from "../DrawerMenu";
+import { Link } from "react-router-dom";
 
 function Header(props) {
     return(
@@ -38,7 +34,7 @@ function Header(props) {
                     <div>
                         <ButtonHeader>
                             <FaRegUserCircle />
-                            <TextButton>Entre ou Cadastre-se</TextButton>
+                            <Link to="/login"><TextButton>Entre ou Cadastre-se</TextButton></Link>
                         </ButtonHeader>
                     </div>
 

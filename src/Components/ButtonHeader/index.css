@@ -1,4 +1,4 @@
-button {
+.btn-header {
     border: none;
     background-color: transparent;
     color: #fff;
@@ -10,7 +10,7 @@ button {
     column-gap: 5px;
 }
 
-button:hover {
+.btn-header:hover {
     animation-duration: 1s;
     background: #9d9d9db8;
     cursor: pointer;

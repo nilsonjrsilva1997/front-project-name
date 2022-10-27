@@ -3,7 +3,7 @@ import './index.css';
 
 function ButtonHeader(props) {
     return(
-        <button>{props.children}</button>
+        <button class="btn-header">{props.children}</button>
     )
 }
 
